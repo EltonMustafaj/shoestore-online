@@ -1,0 +1,117 @@
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.banner {
+    background-color: #2980b9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 30px 0;
+}
+
+.sidebar ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.sidebar ul li a.active {
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+
+.reviews {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.reviews p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #34495e;
+    font-style: italic;
+}
+
+.reviews p strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #2980b9;
+}
+
+
+.reviews-top, .reviews-bottom {
+    margin-bottom: 20px;
+}
